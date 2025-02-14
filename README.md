@@ -1,7 +1,7 @@
 
-# Análise de Sentimentos com Azure AI
+# 📊 Análise de Sentimentos com Azure AI
 
-## Descrição
+## 📄 Descrição
 
 Este projeto realiza a análise de sentimentos de textos utilizando a API do Azure Cognitive Services. O script lê frases de um arquivo de entrada, envia os dados para a API do Azure Language Studio e gera um relatório JSON com os resultados.
 
@@ -16,9 +16,9 @@ Este projeto realiza a análise de sentimentos de textos utilizando a API do Azu
 │-- 📜 main.py              # Script principal de análise  
 │-- 📜 README.md            # Documentação do projeto  
 
-## Configuração e Execução
+## ⚙️ Configuração e Execução
 
-### 1. Criar um ambiente virtual
+### 1. 🧑‍💻 Criar um ambiente virtual
 
 ```bash
 python -m venv venv  
@@ -26,13 +26,13 @@ source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 ```
 
-### 2. Instalar dependências
+### 2. 📦 Instalar dependências
 
 ```bash
 pip install requests python-dotenv
 ```
 
-### 3. Configurar variáveis do Azure
+### 3. 🌐 Configurar variáveis do Azure
 
 Crie um arquivo `.env` e adicione suas credenciais:
 
@@ -42,7 +42,7 @@ AZURE_KEY="<sua-chave>"
 AZURE_REGION="<sua-região>"
 ```
 
-### 4. Inserir frases para análise
+### 4. 📝 Inserir frases para análise
 
 Edite o arquivo `inputs/sentencas.txt` com frases para análise, por exemplo:
 
@@ -52,7 +52,7 @@ Esse serviço foi péssimo.
 A comida estava boa, mas o atendimento foi demorado.
 ```
 
-### 5. Executar o script
+### 5. ▶️ Executar o script
 
 ```bash
 python main.py
@@ -60,7 +60,7 @@ python main.py
 
 Isso gerará um arquivo `outputs/resultados.json` com os sentimentos detectados.
 
-## Exemplo de Saída JSON
+## 📊 Exemplo de Saída JSON
 
 ```json
 {
@@ -72,17 +72,17 @@ Isso gerará um arquivo `outputs/resultados.json` com os sentimentos detectados.
 }
 ```
 
-## Insights e Possibilidades
+## 💡 Insights e Possibilidades
 
 - Permite análise de sentimentos automatizada para diferentes setores.
 - Pode ser integrado em chatbots, suporte ao cliente e redes sociais.
 - Expansível para outras análises como extração de entidades e detecção de linguagem.
 
-## Contribuição
+## 🤝 Contribuição
 
 Sinta-se à vontade para contribuir! Abra um pull request ou relatar problemas.
 
-## Licença
+## 📜 Licença
 
 Este projeto está sob a licença MIT.
 ```
