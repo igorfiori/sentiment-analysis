@@ -12,7 +12,7 @@ Este projeto realiza a análise de sentimentos de textos utilizando a API do Azu
 │   ├── sentencas.txt       # Arquivo com frases para análise  
 │-- 📂 outputs  
 │   ├── resultados.json     # Resultados da análise (gerado pelo script)  
-│-- 📜 .env                 # Configurações da API (não subir para o GitHub)  
+│-- 📜 .env                 # Configurações da API (3. configurar varáveis do Azure)  
 │-- 📜 main.py              # Script principal de análise  
 │-- 📜 README.md            # Documentação do projeto  
 
@@ -87,4 +87,3 @@ Sinta-se à vontade para contribuir! Abra um pull request ou relatar problemas.
 Este projeto está sob a licença MIT.
 ```
 
-Se precisar de mais ajustes ou detalhes, é só avisar! 😊
