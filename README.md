@@ -1,3 +1,6 @@
+Aqui está o conteúdo transformado em Markdown para ser usado no GitHub:
+
+```markdown
 # Análise de Sentimentos com Azure AI
 
 ## Descrição
@@ -6,6 +9,7 @@ Este projeto realiza a análise de sentimentos de textos utilizando a API do Azu
 
 ## Estrutura do Projeto
 
+```
 📂 analise-sentimentos-azure  
 │-- 📂 inputs  
 │   ├── sentencas.txt       # Arquivo com frases para análise  
@@ -14,6 +18,7 @@ Este projeto realiza a análise de sentimentos de textos utilizando a API do Azu
 │-- 📜 .env                 # Configurações da API (não subir para o GitHub)  
 │-- 📜 main.py              # Script principal de análise  
 │-- 📜 README.md            # Documentação do projeto  
+```
 
 ## Configuração e Execução
 
@@ -23,41 +28,45 @@ Este projeto realiza a análise de sentimentos de textos utilizando a API do Azu
 python -m venv venv  
 source venv/bin/activate  # Linux/Mac  
 venv\Scripts\activate     # Windows
-````
-2. Instalar dependências
-bash
-Copiar
-Editar
-pip install requests python-dotenv
-3. Configurar variáveis do Azure
-Crie um arquivo .env e adicione suas credenciais:
+```
 
-dotenv
-Copiar
-Editar
+### 2. Instalar dependências
+
+```bash
+pip install requests python-dotenv
+```
+
+### 3. Configurar variáveis do Azure
+
+Crie um arquivo `.env` e adicione suas credenciais:
+
+```dotenv
 AZURE_ENDPOINT="https://<seu-endpoint>.cognitiveservices.azure.com/"  
 AZURE_KEY="<sua-chave>"  
 AZURE_REGION="<sua-região>"
-4. Inserir frases para análise
-Edite o arquivo inputs/sentencas.txt com frases para análise, por exemplo:
+```
 
-txt
-Copiar
-Editar
+### 4. Inserir frases para análise
+
+Edite o arquivo `inputs/sentencas.txt` com frases para análise, por exemplo:
+
+```txt
 Estou muito feliz hoje!  
 Esse serviço foi péssimo.  
 A comida estava boa, mas o atendimento foi demorado.
-5. Executar o script
-bash
-Copiar
-Editar
-python main.py
-Isso gerará um arquivo outputs/resultados.json com os sentimentos detectados.
+```
 
-Exemplo de Saída JSON
-json
-Copiar
-Editar
+### 5. Executar o script
+
+```bash
+python main.py
+```
+
+Isso gerará um arquivo `outputs/resultados.json` com os sentimentos detectados.
+
+## Exemplo de Saída JSON
+
+```json
 {
   "sentence": "Estou muito feliz hoje!",
   "analysis": {
@@ -65,12 +74,21 @@ Editar
     "confidenceScores": {"positive": 0.99, "neutral": 0.01, "negative": 0.0}
   }
 }
-Insights e Possibilidades
-Permite análise de sentimentos automatizada para diferentes setores.
-Pode ser integrado em chatbots, suporte ao cliente e redes sociais.
-Expansível para outras análises como extração de entidades e detecção de linguagem.
-Contribuição
+```
+
+## Insights e Possibilidades
+
+- Permite análise de sentimentos automatizada para diferentes setores.
+- Pode ser integrado em chatbots, suporte ao cliente e redes sociais.
+- Expansível para outras análises como extração de entidades e detecção de linguagem.
+
+## Contribuição
+
 Sinta-se à vontade para contribuir! Abra um pull request ou relatar problemas.
 
-Licença
+## Licença
+
 Este projeto está sob a licença MIT.
+```
+
+Se precisar de mais ajustes ou detalhes, é só avisar! 😊
