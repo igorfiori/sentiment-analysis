@@ -1,15 +1,12 @@
-Aqui está o conteúdo transformado em Markdown para ser usado no GitHub:
 
-```markdown
-# Análise de Sentimentos com Azure AI
+#Análise de Sentimentos com Azure AI
 
-## Descrição
+##Descrição
 
 Este projeto realiza a análise de sentimentos de textos utilizando a API do Azure Cognitive Services. O script lê frases de um arquivo de entrada, envia os dados para a API do Azure Language Studio e gera um relatório JSON com os resultados.
 
-## Estrutura do Projeto
+##Estrutura do Projeto
 
-```
 📂 analise-sentimentos-azure  
 │-- 📂 inputs  
 │   ├── sentencas.txt       # Arquivo com frases para análise  
