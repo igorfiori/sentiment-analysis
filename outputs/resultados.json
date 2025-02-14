@@ -1,0 +1,54 @@
+[
+    {
+        "sentence": "Eu amo este produto!",
+        "analysis": {
+            "id": "1",
+            "language": "pt",
+            "sentiment": "positive",
+            "confidenceScores": {
+                "positive": 0.99,
+                "neutral": 0.01,
+                "negative": 0.00
+            }
+        }
+    },
+    {
+        "sentence": "O serviço foi muito ruim.",
+        "analysis": {
+            "id": "2",
+            "language": "pt",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.00,
+                "neutral": 0.10,
+                "negative": 0.90
+            }
+        }
+    },
+    {
+        "sentence": "Estou muito feliz com a compra.",
+        "analysis": {
+            "id": "3",
+            "language": "pt",
+            "sentiment": "positive",
+            "confidenceScores": {
+                "positive": 0.95,
+                "neutral": 0.05,
+                "negative": 0.00
+            }
+        }
+    },
+    {
+        "sentence": "A experiência foi péssima.",
+        "analysis": {
+            "id": "4",
+            "language": "pt",
+            "sentiment": "negative",
+            "confidenceScores": {
+                "positive": 0.10,
+                "neutral": 0.20,
+                "negative": 0.70
+            }
+        }
+    }
+]
